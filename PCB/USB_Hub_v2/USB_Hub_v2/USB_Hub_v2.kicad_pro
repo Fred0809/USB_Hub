@@ -189,10 +189,10 @@
       "track_widths": [
         0.0,
         0.2,
-        0.2,
         0.3,
-        0.4,
-        0.5
+        0.5,
+        0.75,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -224,6 +224,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -469,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "USB_Hub.kicad_pro",
+    "filename": "USB_Hub_v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
