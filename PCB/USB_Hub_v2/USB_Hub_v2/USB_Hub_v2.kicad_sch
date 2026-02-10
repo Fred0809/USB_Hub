@@ -3453,6 +3453,12 @@
 		(uuid "4d901447-46ce-4ab0-bfce-876f50085778")
 	)
 	(junction
+		(at 171.45 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ffaa467-38cf-480a-b14e-05f725ad7929")
+	)
+	(junction
 		(at 38.1 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3908,6 +3914,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 114.3) (xy 171.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ee023a-9ee0-4a4f-9ecb-ae8c9bceef98")
+	)
+	(wire
+		(pts
 			(xy 176.53 111.76) (xy 175.26 111.76)
 		)
 		(stroke
@@ -3935,6 +3951,16 @@
 			(type default)
 		)
 		(uuid "0a62020c-01d3-47c6-81bc-2de2867bf791")
+	)
+	(wire
+		(pts
+			(xy 171.45 114.3) (xy 176.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b063025-c993-4365-a5e3-07473d753097")
 	)
 	(wire
 		(pts
@@ -4585,6 +4611,16 @@
 			(type default)
 		)
 		(uuid "4076fd81-4ab7-4d56-b0c2-00f244ef976c")
+	)
+	(wire
+		(pts
+			(xy 171.45 123.19) (xy 171.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42505b0c-62d6-446e-8ef7-2b6601cabbdb")
 	)
 	(wire
 		(pts
@@ -6808,6 +6844,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 114.3) (xy 171.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1315d51-7db9-4775-8b9f-ba3fde0a815b")
+	)
+	(wire
+		(pts
 			(xy 50.8 158.75) (xy 57.15 158.75)
 		)
 		(stroke
@@ -7288,16 +7334,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 114.3) (xy 176.53 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f26e3c29-a9b4-4720-969f-654dd5ee39c0")
-	)
-	(wire
-		(pts
 			(xy 231.14 55.88) (xy 231.14 58.42)
 		)
 		(stroke
@@ -7375,6 +7411,16 @@
 			(type default)
 		)
 		(uuid "f6abaec7-a8e3-403c-abb1-fd35d953c577")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b975a2-0e37-4605-905a-e17bad27aadf")
 	)
 	(wire
 		(pts
@@ -7947,7 +7993,7 @@
 		(uuid "82ac1727-08b8-4fb6-91d9-b5d51abe9dd5")
 	)
 	(label "S_TS3USB"
-		(at 172.72 114.3 180)
+		(at 161.29 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8565,6 +8611,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9438,6 +9485,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 171.45 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "326213d0-4e00-45b0-844e-7905d371f6d2")
+		(property "Reference" "#PWR035"
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dc2798a-6d1b-48ac-8cf3-af79187860d8")
+		)
+		(instances
+			(project "USB_Hub_v2"
+				(path "/9578ac23-9c49-4eaa-9f79-4eba038e5099"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 67.31 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9631,6 +9745,73 @@
 			(project "USB_Hub_v2"
 				(path "/9578ac23-9c49-4eaa-9f79-4eba038e5099"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 171.45 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3baa6f6d-2d74-4faa-bc91-cba7bd9798e9")
+		(property "Reference" "C35"
+			(at 168.91 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 168.402 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 170.4848 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72728ae9-f2ca-4e13-9436-d0f6b0affc0e")
+		)
+		(pin "2"
+			(uuid "8d027003-bd23-4e95-b86f-0fdd654624e4")
+		)
+		(instances
+			(project "USB_Hub_v2"
+				(path "/9578ac23-9c49-4eaa-9f79-4eba038e5099"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -15299,6 +15480,73 @@
 			(project "USB_Hub"
 				(path "/9578ac23-9c49-4eaa-9f79-4eba038e5099"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f10b6793-c363-493d-bc1c-0f52b9b0f596")
+		(property "Reference" "R15"
+			(at 164.338 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 169.418 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 166.37 112.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa4bbf0c-7042-493c-90ae-c5e620da2c71")
+		)
+		(pin "1"
+			(uuid "de35311c-c52c-497a-80aa-fcdcfe5c1b01")
+		)
+		(instances
+			(project "USB_Hub_v2"
+				(path "/9578ac23-9c49-4eaa-9f79-4eba038e5099"
+					(reference "R15")
 					(unit 1)
 				)
 			)

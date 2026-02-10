@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.061018,
+          "via_gap": 0.0,
+          "width": 0.205509
         }
       ],
       "drc_exclusions": [],
@@ -496,6 +501,20 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.061018,
+        "diff_pair_gap": 0.08,
+        "diff_pair_width": 0.1986,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB_DP",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.205509,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -503,7 +522,48 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB_DP",
+        "pattern": "/D4+"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "/D4-"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "/D3+"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "/D3-"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "/D2+"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "/D2-"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "/D1+"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "/D1-"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "/DSW+"
+      },
+      {
+        "netclass": "USB_DP",
+        "pattern": "/DSW-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -583,12 +643,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
