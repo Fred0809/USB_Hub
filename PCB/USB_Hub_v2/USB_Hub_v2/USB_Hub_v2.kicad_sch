@@ -11915,7 +11915,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 34.29 0)
+		(at 133.35 34.29 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11924,7 +11924,7 @@
 		(dnp no)
 		(uuid "86cca1e1-e8b6-4bd7-a214-02c3f72448d0")
 		(property "Reference" "C23"
-			(at 129.032 32.004 0)
+			(at 135.382 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +11932,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 129.286 36.83 0)
+			(at 135.636 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11940,7 +11940,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 127.9652 30.48 0)
+			(at 134.3152 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11949,7 +11949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 34.29 0)
+			(at 133.35 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11958,7 +11958,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 34.29 0)
+			(at 133.35 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12183,7 +12183,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 34.29 0)
+		(at 127 34.29 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12192,7 +12192,7 @@
 		(dnp no)
 		(uuid "8b6b2c2a-4dad-4d19-afcc-d955b373d314")
 		(property "Reference" "C2"
-			(at 135.382 32.004 0)
+			(at 129.032 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12200,7 +12200,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 136.144 36.83 0)
+			(at 129.794 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12208,7 +12208,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 134.3152 30.48 0)
+			(at 127.9652 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12217,7 +12217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12226,7 +12226,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
