@@ -7683,7 +7683,7 @@
 		(uuid "29d89aad-232b-40b8-a2ba-ee80a25ba0b9")
 	)
 	(label "DPC2-"
-		(at 200.66 114.3 0)
+		(at 200.66 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7853,7 +7853,7 @@
 		(uuid "5f8ed4f9-9075-4d4c-ada5-cbb66ec3f106")
 	)
 	(label "DPC1+"
-		(at 200.66 104.14 0)
+		(at 200.66 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8123,7 +8123,7 @@
 		(uuid "cb359ada-53fa-4a68-a960-e74d4d827527")
 	)
 	(label "DPC2+"
-		(at 200.66 111.76 0)
+		(at 200.66 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8243,7 +8243,7 @@
 		(uuid "fba13c1d-96d6-4338-a5cd-a8f76ae4bb5f")
 	)
 	(label "DPC1-"
-		(at 200.66 106.68 0)
+		(at 200.66 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
